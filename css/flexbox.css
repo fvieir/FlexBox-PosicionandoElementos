@@ -8,10 +8,13 @@
     display: flex;
 }
 
-.conteudoPrincipal .container{
+.conteudoPrincipal-cursos{
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.conteudoPrincipal-cursos {
+.conteudoPrincipal-cursos-link {
+    width: 23%;
 }
 
 .rodapePrincipal-navMap-list {
