@@ -46,6 +46,32 @@
     display: flex;
 }
 
+.videoSobre .container {
+    display: flex;
+}
+
+.videoSobre-sobre {
+    display: flex;
+    flex-direction: column;
+}
+
+.videoSobre-video {
+    flex-grow: 1;
+}
+
+.videoSobre-sobre-list {
+    flex-grow: 1;
+}
+
+.videoSobre-sobre {
+    flex-grow: 1;
+}
+
+.videoSobre-button {
+    cursor: pointer;
+}
+
+/*Responsivo*/
 @media screen and (max-width: 768px) {
     .cabecalhoPrincipal .container {
         flex-direction: column;
@@ -54,6 +80,10 @@
     }
     .cabecalhoPrincipal-nav{
         flex-direction: column;
+    }
+
+    .cabecalhoPrincipal-nav-link-app {
+        order: -1;
     }
 
     .conteudoPrincipal-cursos {
